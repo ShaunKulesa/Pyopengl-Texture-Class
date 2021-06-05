@@ -1,3 +1,5 @@
+from PIL import Image
+
 class Texture:
     def __init__(self, path: str):
         image = Image.open(path).convert("RGBA")
